@@ -21,11 +21,11 @@ public class Main {
             else
             {
                 trash = in.nextLine();
-                System.out.println("youve entered the wrong input " + trash);
-                System.out.println("Please reenter your input ");
+                System.out.println("you've entered the wrong input " + trash);
+                System.out.println("Please re-enter your input ");
             }
         }while(!done);
-        System.out.printf("the tempature in fahrenheit is: %.2f", fahrenheit);
+        System.out.printf("the temperature in fahrenheit is: %.2f", fahrenheit);
 
 
     }
